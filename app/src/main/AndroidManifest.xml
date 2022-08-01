@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DrAssistant">
         <activity
+            android:name=".user_add_activity"
+            android:exported="false" />
+        <activity
             android:name=".user_activity"
             android:exported="false" />
         <activity

@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         CardView userCard = findViewById(R.id.UserCard);
+        CardView userAddCard = findViewById(R.id.UserAddCard);
 
 
 
@@ -20,6 +21,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,user_activity.class);
+                startActivity(intent);
+            }
+        });
+
+        userAddCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,user_add_activity.class);
                 startActivity(intent);
             }
         });
