@@ -89,14 +89,28 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="date  : "
+            android:text="Date : "
             android:textColor="@color/black"
             android:textSize="20dp"
             android:layout_margin="5dp"
             android:padding="5dp"/>
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Double tap to select"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/custom_et_bg"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:padding="10dp"/>
+
 
     </LinearLayout>
 
