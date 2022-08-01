@@ -10,21 +10,17 @@
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:layout_margin="5dp"
         app:cardElevation="8dp"
         app:cardCornerRadius="8dp"
         >
-        <TextView
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Dr Assistant (Image)"
-            android:background="#E8E8E8"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:gravity="center_horizontal"
-            android:paddingTop="30dp"
+            android:layout_height="150dp"
+            android:src="@drawable/drassistant"
+            android:scaleType="centerCrop"
+
             />
     </android.support.v7.widget.CardView>
 
