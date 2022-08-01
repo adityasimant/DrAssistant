@@ -32,8 +32,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="2"
-        android:rowCount="2">
+        android:rowCount="3">
         <android.support.v7.widget.CardView
+            android:id="@+id/UserCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
@@ -59,10 +60,11 @@
                     android:layout_gravity="center_horizontal"
                 />
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
                     android:text="Users"
-                    android:textSize="25dp"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:layout_gravity="center_horizontal"
@@ -98,19 +100,175 @@
                     android:layout_gravity="center_horizontal"
                 />
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="90dp"
                     android:layout_height="wrap_content"
                     android:text="Camera"
-                    android:textSize="25dp"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"/>
             </LinearLayout>
-
-
-
         </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/UserAddCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="8dp"
+            android:layout_gravity="fill"
+            android:layout_column="0"
+            android:layout_row="1"
+            app:cardCornerRadius="8dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_baseline_person_add_alt_1_24"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="User Add"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/UpperLimbCrd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="8dp"
+            android:layout_gravity="fill"
+            android:layout_column="1"
+            android:layout_row="1"
+            app:cardCornerRadius="8dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_baseline_image_24"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Upper Limb"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/LowerLimbCrd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="8dp"
+            android:layout_gravity="fill"
+            android:layout_column="0"
+            android:layout_row="2"
+            app:cardCornerRadius="8dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_baseline_image_24"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Lower Limb"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/SDCrd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="8dp"
+            android:layout_gravity="fill"
+            android:layout_column="1"
+            android:layout_row="2"
+            app:cardCornerRadius="8dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                >
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_baseline_image_24"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="SD"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
 
 
     </GridLayout>

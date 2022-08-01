@@ -12,6 +12,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        CardView userCard = findViewById(R.id.UserCard);
+
+
+
+        userCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,user_activity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
