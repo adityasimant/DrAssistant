@@ -29,10 +29,11 @@
             android:src="@drawable/ic_baseline_search_24"
             />
 
-         <ImageView
+        <ImageView
+            android:id="@+id/imgUserAdd"
             android:layout_width="37dp"
-            android:layout_height="match_parent"
-             android:layout_marginStart="10dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="10dp"
             android:src="@drawable/ic_baseline_person_add_alt_1_24" />
 
     </LinearLayout>
@@ -42,6 +43,9 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:background="#636363"/>
+
+
+
 
 
 
