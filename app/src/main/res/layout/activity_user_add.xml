@@ -64,7 +64,7 @@
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="100sp"
             android:layout_height="wrap_content"
             android:text="Address : "
             android:textColor="@color/black"
@@ -91,7 +91,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="100sp"
             android:layout_height="wrap_content"
             android:text="Date : "
             android:textColor="@color/black"
@@ -107,12 +107,24 @@
             android:textSize="20sp"
             android:layout_gravity="center_vertical"
             android:background="@drawable/custom_et_bg"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="5dp"
             android:layout_marginEnd="20dp"
             android:padding="10dp"/>
 
 
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_et_bg"
+        android:layout_margin="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
 
 
 </LinearLayout>
